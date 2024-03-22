@@ -4,8 +4,8 @@
 // Given a variable that holds a user's preferred type of Monster Energy drink, 
 // print whether the user prefers a "Regular" or "Sugar-free" variety. If the preference is not set, default to "Regular".
 
-   let userPreference = 'Sugar-free'; // Possible values: 'Regular', 'Sugar-free', or undefined
-      console.log(userPreference === "Sugar-free" ? "Sugar-free" : userPreference === "Regular" ? "Regular": "Undefined");
+   let userPreference = "Sugar-free"; // Possible values: 'Regular', 'Sugar-free', or undefined
+      console.log(userPreference === "Sugar-free" ? "Sugar-free" : userPreference === "Regular" ? "Regular": "Regular");
 
 // #### Challenge 2: Stock Check
 // You have a variable that tracks the number of Monster Energy cans left in the fridge. 
@@ -23,8 +23,8 @@
 // #### Challenge 4: Temperature Suitability
 // Monster Energy drinks are best served cold. Given the current temperature, use a ternary to print "Chilled to perfection!" 
 // if the temperature is below or equal to 5°C, or "Needs a cooler!" if above 5°C.
-let currentTemp = 10; //Current temperature in °C
-   console.log(currentTemp <= 5 ? "Chilled to perfection" : "Needs a cooler");
+   let currentTemp = 10; //Current temperature in °C
+      console.log(currentTemp <= 5 ? "Chilled to perfection" : "Needs a cooler");
 
 // #### Challenge 5: Late Night Coding Session
 // Determine if it's a good idea to have a Monster Energy drink based on the current hour.
@@ -38,7 +38,7 @@ let currentTemp = 10; //Current temperature in °C
 // If it's between 7am and midnight (24-hour format), print "Unleash the beast!"
 // Otherwise, print "Better stick to water."
 
-  console.log( currentHour >= 7 && currentHour <= 24 ? "Unleash the beast!" : "Better stick to water." );
+      console.log( currentHour >= 7 && currentHour <= 24 ? "Unleash the beast!" : "Better stick to water." );
 
 
 
